@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ovo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logoSite.png" alt="Ovo Online Casa de Ações">
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Pesquisar...">
+        </div>
+        <div class="user-icon">
+            <button>ASSINE</button>
+        </div>
+    </header>
+
+    <section class="main-banner">
+        <div class="image-grid">
+            <img src="Rectangle 3.png" alt="Image 1">
+            <img src="Rectangle 4.png" alt="Image 2">
+            <img src="image 4.png" alt="Image 3">
+        </div>
+    </section>
+
+    <!-- Início do Carrossel de Navegação -->
+<div class="carousel-container">
+    <button class="carousel-prev" onclick="moveCarousel(1)">&#10094;</button>
+    <div class="carousel">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Alojamento</a></li>
+            <li><a href="#">Links</a></li>
+            <li><a href="#">Informe</a></li>
+            <li><a href="#">Classificados</a></li>
+            <li><a href="#">Estatística</a></li>
+            <li><a href="#">Cadastro de Clientes</a></li>
+            <li><a href="#">Mural</a></li>
+            <li><a href="#">Culinária</a></li>
+            <li><a href="#">Sobre o Ovo</a></li> <!-- Novo item -->
+            <li><a href="#">Galeria de Fotos</a></li> <!-- Novo item -->
+        </ul>
+    </div>
+    <button class="carousel-next" onclick="moveCarousel(-1)">&#10095;</button>
+</div>
+<!-- Fim do Carrossel de Navegação -->
+    <div class="boletini">
+        <section class="boletim">
+        <div class="boletim1">
+            <h2>BOLETIM</h2>
+        </div>
+        <div class="boletpngim-content">
+            <img src="galinhavacina.png" alt="Boletim Image">
+            <p class="textoo">Doença aviária é descartada no Rio Grande do Sul, afirma Ministério da Agricultura</p>
+        </div>
+    </section>
+</div>
+    
+
+    
+    <section class="alojamento">
+        <div class="alojamento1"><h2>Alojamento</h2></div>
+        <div class="alojamento-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <table>
+                <!-- Tabela de Estatísticas -->
+            </table>
+        </div>
+    </section>
+
+    <section class="sobre-nos">
+        <div class="empresa">
+            <h2>Empresa</h2>
+            <img src="empresa.png" alt="Empresa">
+            <p>A Ceva Saúde Animal promoverá um grande encontro técnico sobre sanidade avícola um dia antes da abertura oficial do Congresso de Ovos APA 2024</p>
+        </div>
+        <div class="culinaria">
+            <h2>Culinária</h2>
+            <img src="culinaria.png" alt="Culinária">
+            <p>Receitas gostosas e sabores omeletes ou ovos mexidos</p>
+        </div>
+        <div class="sobre-ovo">
+            <h2>Sobre o Ovo</h2>
+            <img src="sobre o ovo.png" alt="Sobre o Ovo">
+            <p>Ovo e os seus benefícios</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Rua Patrocínio Monteiro n°485 - Centro - Bastos - SP<br>
+        Fone: (14) 3478-3862 ou (14) 9704-1459 - CEP: 17.690-000<br>
+        ovoonline@ovoonline.com.br</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,230 @@
+/* CSS básico já definido anteriormente */
+@font-face {
+    font-family: 'pautua';
+    src: url(patua-one/PatuaOne-Regular.ttf);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F8E5B1;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FFCC00;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 100px;
+}
+
+.search-bar input {
+    width: 300px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.user-icon button {
+    background-color: #FFF;
+    color: #FFCC00;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-family: 'pautua';
+}
+
+.main-banner .image-grid {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #FFCC00;
+}
+
+.main-banner img {
+    width: 250px;
+    height: auto;
+}
+
+/* Carrossel */
+.carousel-container {
+    display: flex;
+    align-items: center;
+    background-color: #DDD;
+    padding: 10px;
+    justify-content: space-around;
+    font-family: 'pautua';
+}
+
+.carousel {
+    overflow: hidden;
+    width: 80%;
+}
+
+.carousel ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Ajuste o tamanho de cada item se necessário */
+.carousel ul li {
+    flex: 0 0 120px; /* Ajuste a largura dos itens conforme necessário */
+}
+
+/* Adicione estilos específicos para novos itens, se desejado */
+.carousel ul li a {
+    font-size: 14px; /* Ajuste o tamanho da fonte se necessário */
+}
+
+.carousel ul li {
+    flex: 0 0 150px; /* Largura de cada item */
+    text-align: center;
+}
+
+.carousel a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+}
+
+.carousel-prev, .carousel-next {
+    background-color: #FFCC00;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 50%;
+    width: 50px;
+    
+}
+
+.carousel-prev {
+    margin-right: 10px;
+}
+
+.carousel-next {
+    margin-left: 10px;
+}
+
+/* Seções */
+.boletim {
+    background-image: url('background.png');
+    padding: 20px;
+    color: #000000;
+    text-align: center;
+    font-family: 'pautua';
+}
+
+.boletim h2 {
+    font-size: 36px;
+    font-family: 'pautua';
+    display: flex;
+
+}
+
+.boletim-content {
+    margin-top: 20px;
+}
+
+.alojamento {
+    padding: 20px;
+    text-align: center;
+    font-family: 'pautua';
+}
+
+.alojamento h2 {
+    font-size: 36px;
+    color: #000000;
+    font-family: 'pautua';
+}
+
+.alojamento-content p {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.sobre-nos {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    font-family: 'pautua';
+}
+
+.sobre-nos h2 {
+    font-size: 24px;
+    color: #000000;
+    font-family: 'pautua';
+}
+
+.sobre-nos img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.sobre-nos div {
+    width: 30%;
+    text-align: center;
+    font-family: 'pautua';
+}
+
+footer {
+    background-color: #FFCC00;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    font-family: 'pautua';
+}
+
+.alojamento1{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: #FEC536;
+
+}
+.boletim1{
+    display: flex;
+    width: 513px;
+    margin-left: 490px;
+    height: 40px;
+    background-color: #FEC536;
+    align-items: center;
+    justify-content: center;
+}
+
+.boletpngim-content{
+    width: 480px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 507px;
+    margin-right: 480px;
+   flex-direction: column;
+}
+
+.textoo{
+    color: white;
+}
+
+.boletini{
+    text-align: center;
+    flex-direction: column;
+    background-color: white;
+}
